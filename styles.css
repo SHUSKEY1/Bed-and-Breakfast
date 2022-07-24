@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+ul{
+  background: url("background.jpg");
+}
+
+.nav-link{
+  color: black;
+  display: block;
+}
+
+h3{
+  font-family: monospace;
+}
+.title{
+  text-align: center;
+}
+
+form{
+  width: 90%;
+}
+
+.card-group{
+  margin-top: 50px;
+}
+
+iframe{
+  float:right;
+  width: 60%;
+  margin-right: 200px;
+}
