@@ -4,6 +4,12 @@ ul{
   background: url("background.jpg");
 }
 
+.container2{
+  background: url("images/background.png");
+  padding: 10%;
+  margin-top: 50px;
+}
+
 .nav-link{
   color: black;
   display: block;
@@ -11,13 +17,14 @@ ul{
 
 h3{
   font-family: monospace;
+  text-align: center;
 }
 .title{
   text-align: center;
 }
 
 form{
-  width: 90%;
+  width: 99%;
 }
 
 .card-group{
@@ -26,6 +33,24 @@ form{
 
 iframe{
   float:right;
-  width: 60%;
-  margin-right: 200px;
+  width: 99%;
+  margin-left: 100px;
+  margin-right: 5px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 270px;
+}
+
+.column1 .column2{
+  width: 50%;
+}
+.column1{
+  float: left;
+  margin-left: 125px;
+}
+.column2{
+  float:right;
+  margin-right: 150px;
 }
